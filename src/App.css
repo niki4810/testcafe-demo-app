@@ -1,0 +1,64 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.btn-search {
+  color: #fff;
+  background: #09d3ac;
+  border: #09d3ac;
+  margin: 0 10px;
+}
+
+.txt-search,
+.btn-search {
+  width: 200px;
+  height: 30px;
+}
+
+.txt-search {
+  padding: 5px;
+}
+
+.spinner {
+  width: 200px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5e5;
+  border: #ccc;
+}
+
+.spinner .spinner-logo {
+  margin: 0 10px;
+  animation-name: spin;
+  animation-duration: 400ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
