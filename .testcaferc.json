@@ -1,0 +1,14 @@
+{
+  "browsers": ["chrome"],
+  "src": ["./testcafe/**/*.spec.js"],
+  "reporter": "list",
+  "takeScreenshotsOnFails": false,
+  "concurrency": 1,
+  "color": true,
+  "speed": 0.4,
+  "skipJsErrors": true,
+  "skipUncaughtErrors": true,
+  "stopOnFirstFail": false,
+  "debugMode": false,
+  "debugOnFail": false
+}
